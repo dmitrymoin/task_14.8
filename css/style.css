@@ -1,0 +1,194 @@
+body {
+    box-sizing:border-box;
+    background-color: #1c2e2e;
+}
+
+.container {
+    padding: 20px;
+}
+
+.spa-logo {
+    float: left;
+}
+
+.spa-logo img {
+    max-width: 150px;
+}
+
+.btn-login-index {
+    position:relative;
+    text-align: right;
+    right: 20px;
+}
+
+.btn-login-index input {
+    font-size: 12pt;
+    border: solid 1px;
+    border-radius: 8px;
+    background-color: #b3903c;
+    padding: 6px 10px;
+}
+
+.btn-login-index input:hover {
+    background-color: #81672d;
+}
+
+.login-form {
+    position: relative;
+    text-align: center;
+    margin-top: 160px;
+}
+
+.login-form input {
+    width:300px;
+    padding:10px;
+    margin: 7px;
+    background-color: #f4e4c7;
+    border: solid 1px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.login-form-href > a {
+    padding: 25px;
+    text-decoration: none;
+    color: #f4e4c7;
+}
+
+.login-form-href {
+    font-size: 10pt;
+    margin-top: 20px;
+}
+
+.login-form input[type=submit] {
+    background-color: #b3903c;
+}
+
+.login-form input[type=submit]:hover {
+    background-color: #81672d;
+}
+
+.login-form input[type=submit] {
+    font-size: 11pt;
+    width: 100px;
+    padding: 8px;
+    margin: 5px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.index-text {
+    font-size: 14pt;
+    color: #f4e4c7;
+}
+
+.echo-index {
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 14pt;
+    color: #f4e4c7;
+}
+
+.echo-index span {
+    color: #b3903c;
+}
+
+.echo-index a {
+    font-size: 12pt;
+    background-color: #b3903c;
+    color: black;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.echo-index a:hover {
+    background-color: #81672d;
+}
+
+h1 {
+    font-size: 42pt;
+    font-style: italic;
+    color: #b3903c;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 20px 100px 75px;
+}
+
+h2 {
+    font-size: 22pt;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    color: #b3903c;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+}
+
+footer .links > a {
+    font-size: 10pt;
+    letter-spacing: 0.5rem;
+    padding: 0 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b3903c;
+}
+
+.wrap-index {
+    display: table;
+    border-spacing: 20px;   
+}
+
+.wrap-index > div {
+    width: 33.33%;
+    display: table-cell;
+    position: relative;
+}
+
+.wrap-index button {
+    font-size: 12pt;
+    border: solid 1px;
+    border-radius: 8px;
+    background-color: #b3903c;
+    padding: 6px 10px;
+}
+
+.wrap-index button:hover {
+    background-color: #81672d;
+}
+  
+.btn-more-index {
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.content-index {
+    padding: 12px;
+    background: #f4e4c7;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.content-index img {
+    height: 100%;
+    width: 100%;
+}
+
+.content-index p {
+    margin-bottom:60px;
+}
+
+h4 {
+    margin: 0 7px 10px;
+    text-align: center;
+    font-size: 19pt;
+}
